@@ -45,6 +45,7 @@ have to eliminate non-MGI annotations to avoid SynGO filtered annotations in dif
 ```
 % grep -e "^\!" go_cam_mgi.gpad > go_cam_mgi_import_only.gpad
 % grep "noctua-model-id=gomodel:MGI_MGI_" go_cam_mgi.gpad >> go_cam_mgi_import_only.gpad
+% mv go_cam_mgi_import_only.gpad go_cam_mgi_import_only_fil3.gpad
 ```  
   
 # MGI File #4: 
@@ -52,6 +53,5 @@ Contains all annotations from file #3 that have run through GOC
 
 source location: TBD from Dustin
 
-file type: GPAD 1.2  
-  
+file type: GPAD 1.2
   
