@@ -18,13 +18,20 @@ source locations:
 http://skyhook.berkeleybop.org/issue-237-mgi-test-pipeline/products/annotations/noctua_mgi.gpad.gz
 http://skyhook.berkeleybop.org/issue-237-mgi-test-pipeline/products/annotations/noctua_pr.gpad.gz
 
+
 file type: GPAD 1.2
 
 have to concantenate these two files in order to have a proper comparison
+
 ```
+% wget http://skyhook.berkeleybop.org/issue-237-mgi-test-pipeline/products/annotations/noctua_pr.gpad.gz
+% wget http://skyhook.berkeleybop.org/issue-237-mgi-test-pipeline/products/annotations/noctua_mgi.gpad.gz
+% gunzip noctua_mgi.gpad.gz 
+% gunzip noctua_pr.gpad.gz
 % grep -e "^\!" noctua_mgi.gpad > noctua_merged_file2.gpad
 % awk FNR!=1 noctua_* >> noctua_merged_file2.gpad
 ```
+
 # MGI File #3: 
 Contains all MGI annotations imported into GOC from file #2
 
