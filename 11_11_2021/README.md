@@ -8,8 +8,9 @@ source location: https://github.com/geneontology/mgi-go-cams/blob/mgi-imports-20
 Contains everything exported from GOC/Nocuta: Resident annotations (SynGO and MGI and others), imported from MGI using file #1. 
 Skyhook: 2 Files; MGI and PRO
 
-source location: http://skyhook.berkeleybop.org/issue-237-mgi-test-pipeline/products/annotations/noctua_mgi.gpad.gz
-            http://skyhook.berkeleybop.org/issue-237-mgi-test-pipeline/products/annotations/noctua_pr.gpad.gz
+source locations: 
+http://skyhook.berkeleybop.org/issue-237-mgi-test-pipeline/products/annotations/noctua_mgi.gpad.gz
+http://skyhook.berkeleybop.org/issue-237-mgi-test-pipeline/products/annotations/noctua_pr.gpad.gz
 
 have to concantenate these two files in order to have a proper comparison
 ```
