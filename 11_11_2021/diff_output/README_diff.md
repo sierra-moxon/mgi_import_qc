@@ -5,9 +5,12 @@
 
 python diff.py -file1 ../../../mgi_import_qc/11_11_2021/go_cam_mgi_file1.gpad -file2 ../../../mgi_import_qc/11_11_2021/noctua_merged_file2.gpad -gb subject -gb evidence_code -gb object -rtd True -o diffs 
 
+
+python diff.py -file1 ../../../mgi_import_qc/11_11_2021/go_cam_mgi_file2.gpad -file2 ../../../mgi_import_qc/11_11_2021/noctua_merged_file3.gpad -gb subject -gb evidence_code -gb object -rtd True -o diffs 
+
 ```
 
-## output:
+## output example:
 
 ```
 
