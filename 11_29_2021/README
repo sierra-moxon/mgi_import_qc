@@ -14,6 +14,11 @@ only for lines with noctua-model_id=gomodel:WB*
 gunzip noctua_wb-src.gpad.gz
 mv noctua_wb-src.gpad noctua_wb-src_file2.gpad
 
+grep -e "^\!" noctua_wb-src_file2.gpad > noctua_wb-src_file2_import_only.gpad
+grep "noctua-model-id=gomodel:WB" noctua_wb-src_file2.gpad >> noctua_wb-src_file2_import_only.gpad
+
+
+
 -----
 for file3 
 -----
@@ -23,3 +28,5 @@ only for lines with noctua-model_id=gomodel:WB*
 
 gunzip noctua_wb.gpad.gz
 mv noctua_wb.gpad noctua_wb_file3.gpad
+grep -e "^\!" noctua_wb_file3.gpad > noctua_wb-file3_import_only.gpad
+grep "noctua-model-id=gomodel:WB" noctua_wb_file3.gpad >> noctua_wb_file3_import_only.gpad
