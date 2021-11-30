@@ -1,0 +1,25 @@
+-----
+for file1
+-----
+https://github.com/geneontology/wb-go-cams/tree/main/source/wb_oa_4.gpad
+mv wb_oa_4.gpad wb_oa_4_file1.gpad
+
+-----
+for file2
+-----
+http://skyhook.berkeleybop.org/issue-238-wormbase-test-pipeline/products/annotations/noctua_wb-src.gpad.gz
+
+only for lines with noctua-model_id=gomodel:WB*
+
+gunzip noctua_wb-src.gpad.gz
+mv noctua_wb-src.gpad noctua_wb-src_file2.gpad
+
+-----
+for file3 
+-----
+http://skyhook.berkeleybop.org/issue-238-wormbase-test-pipeline/products/annotations/noctua_wb.gpad.gz
+
+only for lines with noctua-model_id=gomodel:WB*
+
+gunzip noctua_wb.gpad.gz
+mv noctua_wb.gpad noctua_wb_file3.gpad
