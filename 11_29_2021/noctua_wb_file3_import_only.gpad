@@ -1,3 +1,4 @@
+!gpa-version: 1.2
 WB	WBGene00000011	acts_upstream_of_or_within	GO:0051306	PMID:9649522	ECO:0000315	WB:WBVar00091444		20210513	WB		creation-date=2021-05-13|model-state=production|noctua-model-id=gomodel:WB_WBGene00000011|contributor=https://orcid.org/0000-0002-1706-4196
 WB	WBGene00000078	acts_upstream_of_or_within	GO:0022401	PMID:7718242	ECO:0000316	WB:WBGene00003889		20200513	WB		model-state=production|noctua-model-id=gomodel:WB_WBGene00000078|creation-date=2020-05-13|contributor=https://orcid.org/0000-0002-1706-4196
 WB	WBGene00000078	acts_upstream_of_or_within	GO:0022401	PMID:7718242	ECO:0000315	WB:WBVar00088389		20200513	WB		model-state=production|noctua-model-id=gomodel:WB_WBGene00000078|creation-date=2020-05-13|contributor=https://orcid.org/0000-0002-1706-4196

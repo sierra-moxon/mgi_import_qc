@@ -28,5 +28,5 @@ only for lines with noctua-model_id=gomodel:WB*
 
 gunzip noctua_wb.gpad.gz
 mv noctua_wb.gpad noctua_wb_file3.gpad
-grep -e "^\!" noctua_wb_file3.gpad > noctua_wb-file3_import_only.gpad
+grep -e "^\!" noctua_wb_file3.gpad > noctua_wb_file3_import_only.gpad
 grep "noctua-model-id=gomodel:WB" noctua_wb_file3.gpad >> noctua_wb_file3_import_only.gpad

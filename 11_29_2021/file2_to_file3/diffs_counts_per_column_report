@@ -1,6 +1,6 @@
-	../../../mgi_import_qc/11_29_2021/noctua_wb-src_file2_import_only.gpad	../../../mgi_import_qc/11_29_2021/noctua_wb-file3_import_only.gpad
-subject	155	0
-qualifiers	6	0
-object	99	0
-evidence_code	10	0
-reference	77	0
+	../../../mgi_import_qc/11_29_2021/noctua_wb-src_file2_import_only.gpad	../../../mgi_import_qc/11_29_2021/noctua_wb_file3_import_only.gpad
+subject	155	155
+qualifiers	6	6
+object	99	99
+evidence_code	10	10
+reference	77	77
